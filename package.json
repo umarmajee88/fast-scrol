@@ -1,0 +1,19 @@
+{
+  "name": "react-scroll-dock-extension",
+  "version": "1.0.0",
+  "description": "A draggable scroll dock Chrome extension built with React.",
+  "scripts": {
+    "build": "esbuild index.tsx --bundle --outfile=dist/index.js --loader:.tsx=tsx --jsx=automatic --minify"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@types/chrome": "^0.0.246",
+    "@types/react": "^18.2.22",
+    "@types/react-dom": "^18.2.7",
+    "esbuild": "^0.19.4",
+    "typescript": "^5.2.2"
+  }
+}

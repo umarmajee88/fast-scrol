@@ -1,0 +1,5 @@
+{
+  "name": "React Scroll Dock",
+  "description": "A draggable, floating dock with controls to scroll to the top or bottom of the page and toggle visibility. Re-engineered from an original concept into a modern React application with TypeScript and Tailwind CSS for a sleek, responsive user experience.",
+  "requestFramePermissions": []
+}

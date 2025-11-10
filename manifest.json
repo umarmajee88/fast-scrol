@@ -1,0 +1,13 @@
+{
+  "manifest_version": 3,
+  "name": "React Scroll Dock",
+  "version": "1.0",
+  "description": "A draggable, floating dock with controls to scroll to the top or bottom of the page and toggle visibility. Injects into every page.",
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["dist/index.js"],
+      "run_at": "document_idle"
+    }
+  ]
+}
